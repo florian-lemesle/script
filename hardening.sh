@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt install sudo
-sudo apt install cup
+sudo apt install cups
 set -e  # Stop the script on error
 
 echo "Début du processus de durcissement du système..."
