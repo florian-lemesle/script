@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt install sudo
 set -e  # Stop the script on error
 
 echo "Début du processus de durcissement du système..."
