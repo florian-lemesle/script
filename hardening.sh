@@ -50,8 +50,6 @@ echo "Mises à jour de sécurité appliquées."
 
 # 6. Désactivation des services inutiles
 echo "Désactivation des services inutiles..."
-sudo systemctl disable avahi-daemon
-sudo systemctl stop avahi-daemon
 sudo systemctl disable cups
 sudo systemctl stop cups
 echo "Services inutiles désactivés."
